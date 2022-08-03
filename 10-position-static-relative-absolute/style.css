@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+}
+
+.elemento{
+    color: #fff;
+    font-size: 32px;
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.elemento-estatico{
+    left: 100px;
+    position: static;
+    background-color: crimson;
+}
+
+.elemento-relativo{
+    left: 100px; 
+    position: relative;
+    background-color: coral;
+}
+
+.elemento-absoluto{
+    /* Destacando a camada desse elemento que estão todos os elemento, todos os de baixo vão subir e ocupar esse absolute, ele esta descada em uma camada só dele, igual no photoshop */
+    left: 200px;
+    position: absolute;
+    background-color: darkcyan;
+    top: 0px;
+}
+
+.elemento-relativo-com-filho{
+    position: relative;
+    width: 350px;
+    height: 350px;
+    background-color: rgb(214, 212, 212);
+}
+.elemento-absoluto-com-pai{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 150px;
+    height: 150px;
+    background-color: darkcyan;
+}
